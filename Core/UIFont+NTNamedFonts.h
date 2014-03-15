@@ -11,6 +11,11 @@
 
 +(BOOL)detectCustomFontsShowingAlert:(BOOL)showAlert;
 
+@end
+
+
+@interface UIFont (NTNamedFonts_Builtin)
+
 // Academy Engraved LET
 
 +(UIFont *)academyEngravedLetPlainOfSize:(CGFloat)size NS_AVAILABLE_IOS(6_0);

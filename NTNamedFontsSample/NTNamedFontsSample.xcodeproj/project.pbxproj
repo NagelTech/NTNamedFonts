@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F02E9DD818D4F66800AACBD4 /* UIFont+CustomFonts.m in Sources */ = {isa = PBXBuildFile; fileRef = F02E9DD718D4F66800AACBD4 /* UIFont+CustomFonts.m */; };
+		F02E9DDD18D4F9BE00AACBD4 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F02E9DD918D4F9BE00AACBD4 /* Roboto-Regular.ttf */; };
+		F02E9DDE18D4F9BE00AACBD4 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F02E9DDA18D4F9BE00AACBD4 /* Roboto-Italic.ttf */; };
+		F02E9DDF18D4F9BE00AACBD4 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F02E9DDB18D4F9BE00AACBD4 /* Roboto-Bold.ttf */; };
+		F02E9DE018D4F9BE00AACBD4 /* KaushanScript-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F02E9DDC18D4F9BE00AACBD4 /* KaushanScript-Regular.otf */; };
+		F03F92F518D223B100B547FB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F03F92F318D223B100B547FB /* MainViewController.m */; };
+		F03F92F618D223B100B547FB /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F03F92F418D223B100B547FB /* MainViewController.xib */; };
+		F03F92FA18D2240B00B547FB /* FontInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F03F92F918D2240B00B547FB /* FontInfo.m */; };
 		F07CA73618CF6DE6008975D3 /* NTNamedFontsBootstrap.m in Sources */ = {isa = PBXBuildFile; fileRef = F07CA73518CF6DE6008975D3 /* NTNamedFontsBootstrap.m */; };
 		F0E2DE0A18C80B8E00587E35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E2DE0918C80B8E00587E35 /* Foundation.framework */; };
 		F0E2DE0C18C80B8E00587E35 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E2DE0B18C80B8E00587E35 /* CoreGraphics.framework */; };
@@ -34,6 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F02E9DD618D4048200AACBD4 /* UIFont+CustomFonts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+CustomFonts.h"; sourceTree = "<group>"; };
+		F02E9DD718D4F66800AACBD4 /* UIFont+CustomFonts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+CustomFonts.m"; sourceTree = "<group>"; };
+		F02E9DD918D4F9BE00AACBD4 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		F02E9DDA18D4F9BE00AACBD4 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		F02E9DDB18D4F9BE00AACBD4 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		F02E9DDC18D4F9BE00AACBD4 /* KaushanScript-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaushanScript-Regular.otf"; sourceTree = "<group>"; };
+		F03F92F218D223B100B547FB /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F03F92F318D223B100B547FB /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F03F92F418D223B100B547FB /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		F03F92F818D2240B00B547FB /* FontInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontInfo.h; sourceTree = "<group>"; };
+		F03F92F918D2240B00B547FB /* FontInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontInfo.m; sourceTree = "<group>"; };
 		F07CA73418CF6DE6008975D3 /* NTNamedFontsBootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTNamedFontsBootstrap.h; sourceTree = "<group>"; };
 		F07CA73518CF6DE6008975D3 /* NTNamedFontsBootstrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTNamedFontsBootstrap.m; sourceTree = "<group>"; };
 		F0E2DE0618C80B8E00587E35 /* NTNamedFontsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTNamedFontsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +99,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F02E9DCC18D402AC00AACBD4 /* CustomFonts */ = {
+			isa = PBXGroup;
+			children = (
+				F02E9DDC18D4F9BE00AACBD4 /* KaushanScript-Regular.otf */,
+				F02E9DDB18D4F9BE00AACBD4 /* Roboto-Bold.ttf */,
+				F02E9DDA18D4F9BE00AACBD4 /* Roboto-Italic.ttf */,
+				F02E9DD918D4F9BE00AACBD4 /* Roboto-Regular.ttf */,
+			);
+			path = CustomFonts;
+			sourceTree = "<group>";
+		};
+		F03F92F018D2235F00B547FB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F03F92F118D2238100B547FB /* Main */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F03F92F118D2238100B547FB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F03F92F218D223B100B547FB /* MainViewController.h */,
+				F03F92F318D223B100B547FB /* MainViewController.m */,
+				F03F92F418D223B100B547FB /* MainViewController.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F03F92F718D223EB00B547FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F03F92F818D2240B00B547FB /* FontInfo.h */,
+				F03F92F918D2240B00B547FB /* FontInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F0E2DDFD18C80B8E00587E35 = {
 			isa = PBXGroup;
 			children = (
@@ -114,10 +171,15 @@
 		F0E2DE0F18C80B8E00587E35 /* NTNamedFontsSample */ = {
 			isa = PBXGroup;
 			children = (
+				F02E9DCC18D402AC00AACBD4 /* CustomFonts */,
+				F03F92F718D223EB00B547FB /* Model */,
+				F03F92F018D2235F00B547FB /* ViewControllers */,
 				F0E2DE1818C80B8E00587E35 /* AppDelegate.h */,
 				F0E2DE1918C80B8E00587E35 /* AppDelegate.m */,
 				F0E2DE1B18C80B8E00587E35 /* Images.xcassets */,
 				F0E2DE1018C80B8E00587E35 /* Supporting Files */,
+				F02E9DD618D4048200AACBD4 /* UIFont+CustomFonts.h */,
+				F02E9DD718D4F66800AACBD4 /* UIFont+CustomFonts.m */,
 			);
 			path = NTNamedFontsSample;
 			sourceTree = "<group>";
@@ -207,7 +269,7 @@
 		F0E2DDFE18C80B8E00587E35 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = NagelTech;
 				TargetAttributes = {
 					F0E2DE2018C80B8E00587E35 = {
@@ -239,6 +301,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0E2DE1418C80B8E00587E35 /* InfoPlist.strings in Resources */,
+				F02E9DE018D4F9BE00AACBD4 /* KaushanScript-Regular.otf in Resources */,
+				F03F92F618D223B100B547FB /* MainViewController.xib in Resources */,
+				F02E9DDF18D4F9BE00AACBD4 /* Roboto-Bold.ttf in Resources */,
+				F02E9DDE18D4F9BE00AACBD4 /* Roboto-Italic.ttf in Resources */,
+				F02E9DDD18D4F9BE00AACBD4 /* Roboto-Regular.ttf in Resources */,
 				F0E2DE1C18C80B8E00587E35 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +325,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F02E9DD818D4F66800AACBD4 /* UIFont+CustomFonts.m in Sources */,
 				F0E2DE3B18C80D0400587E35 /* UIFont+NTNamedFonts.m in Sources */,
 				F07CA73618CF6DE6008975D3 /* NTNamedFontsBootstrap.m in Sources */,
 				F0E2DE1A18C80B8E00587E35 /* AppDelegate.m in Sources */,
+				F03F92F518D223B100B547FB /* MainViewController.m in Sources */,
+				F03F92FA18D2240B00B547FB /* FontInfo.m in Sources */,
 				F0E2DE1618C80B8E00587E35 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,7 +377,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -346,7 +415,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -406,7 +474,6 @@
 		F0E2DE3618C80B8E00587E35 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NTNamedFontsSample.app/NTNamedFontsSample";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -429,7 +496,6 @@
 		F0E2DE3718C80B8E00587E35 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NTNamedFontsSample.app/NTNamedFontsSample";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

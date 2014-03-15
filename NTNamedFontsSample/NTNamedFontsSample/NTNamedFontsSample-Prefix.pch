@@ -14,3 +14,8 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+
+#import "UIFont+NTNamedFonts.h"
+#import "UIFont+CustomFonts.h"
+

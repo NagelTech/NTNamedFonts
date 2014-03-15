@@ -24,9 +24,12 @@
 	<string>1.0</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>UIRequiredDeviceCapabilities</key>
+	<key>UIAppFonts</key>
 	<array>
-		<string>armv7</string>
+		<string>Roboto-Regular.ttf</string>
+		<string>Roboto-Bold.ttf</string>
+		<string>Roboto-Italic.ttf</string>
+		<string>KaushanScript-Regular.otf</string>
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
