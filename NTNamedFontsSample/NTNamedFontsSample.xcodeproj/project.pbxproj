@@ -12,8 +12,10 @@
 		F02E9DDE18D4F9BE00AACBD4 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F02E9DDA18D4F9BE00AACBD4 /* Roboto-Italic.ttf */; };
 		F02E9DDF18D4F9BE00AACBD4 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F02E9DDB18D4F9BE00AACBD4 /* Roboto-Bold.ttf */; };
 		F02E9DE018D4F9BE00AACBD4 /* KaushanScript-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F02E9DDC18D4F9BE00AACBD4 /* KaushanScript-Regular.otf */; };
-		F02E9DF118D757C700AACBD4 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F02E9DEF18D757C700AACBD4 /* LICENSE */; };
-		F02E9DF218D757C700AACBD4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F02E9DF018D757C700AACBD4 /* README.md */; };
+		F02E9DFA18D75E3200AACBD4 /* NTNamedFonts.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F02E9DF518D75E3200AACBD4 /* NTNamedFonts.podspec */; };
+		F02E9DFB18D75E3200AACBD4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F02E9DF618D75E3200AACBD4 /* README.md */; };
+		F02E9DFC18D75E3200AACBD4 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F02E9DF718D75E3200AACBD4 /* LICENSE */; };
+		F02E9DFD18D75E3200AACBD4 /* UIFont+NTNamedFonts.m in Sources */ = {isa = PBXBuildFile; fileRef = F02E9DF918D75E3200AACBD4 /* UIFont+NTNamedFonts.m */; };
 		F03F92F518D223B100B547FB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F03F92F318D223B100B547FB /* MainViewController.m */; };
 		F03F92F618D223B100B547FB /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F03F92F418D223B100B547FB /* MainViewController.xib */; };
 		F03F92FA18D2240B00B547FB /* FontInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F03F92F918D2240B00B547FB /* FontInfo.m */; };
@@ -29,7 +31,6 @@
 		F0E2DE2518C80B8E00587E35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E2DE0D18C80B8E00587E35 /* UIKit.framework */; };
 		F0E2DE2D18C80B8E00587E35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0E2DE2B18C80B8E00587E35 /* InfoPlist.strings */; };
 		F0E2DE2F18C80B8E00587E35 /* NTNamedFontsSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E2DE2E18C80B8E00587E35 /* NTNamedFontsSampleTests.m */; };
-		F0E2DE3B18C80D0400587E35 /* UIFont+NTNamedFonts.m in Sources */ = {isa = PBXBuildFile; fileRef = F0E2DE3A18C80D0400587E35 /* UIFont+NTNamedFonts.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +50,11 @@
 		F02E9DDA18D4F9BE00AACBD4 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
 		F02E9DDB18D4F9BE00AACBD4 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		F02E9DDC18D4F9BE00AACBD4 /* KaushanScript-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaushanScript-Regular.otf"; sourceTree = "<group>"; };
-		F02E9DEF18D757C700AACBD4 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F02E9DF018D757C700AACBD4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F02E9DF518D75E3200AACBD4 /* NTNamedFonts.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NTNamedFonts.podspec; sourceTree = "<group>"; };
+		F02E9DF618D75E3200AACBD4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		F02E9DF718D75E3200AACBD4 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F02E9DF818D75E3200AACBD4 /* UIFont+NTNamedFonts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+NTNamedFonts.h"; sourceTree = "<group>"; };
+		F02E9DF918D75E3200AACBD4 /* UIFont+NTNamedFonts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+NTNamedFonts.m"; sourceTree = "<group>"; };
 		F03F92F218D223B100B547FB /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		F03F92F318D223B100B547FB /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		F03F92F418D223B100B547FB /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
@@ -72,8 +76,6 @@
 		F0E2DE2A18C80B8E00587E35 /* NTNamedFontsSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NTNamedFontsSampleTests-Info.plist"; sourceTree = "<group>"; };
 		F0E2DE2C18C80B8E00587E35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F0E2DE2E18C80B8E00587E35 /* NTNamedFontsSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTNamedFontsSampleTests.m; sourceTree = "<group>"; };
-		F0E2DE3918C80D0400587E35 /* UIFont+NTNamedFonts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+NTNamedFonts.h"; sourceTree = "<group>"; };
-		F0E2DE3A18C80D0400587E35 /* UIFont+NTNamedFonts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+NTNamedFonts.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,13 +219,14 @@
 		F0E2DE3818C80CC300587E35 /* NTNamedFonts */ = {
 			isa = PBXGroup;
 			children = (
-				F02E9DEF18D757C700AACBD4 /* LICENSE */,
-				F0E2DE3918C80D0400587E35 /* UIFont+NTNamedFonts.h */,
-				F0E2DE3A18C80D0400587E35 /* UIFont+NTNamedFonts.m */,
-				F02E9DF018D757C700AACBD4 /* README.md */,
+				F02E9DF518D75E3200AACBD4 /* NTNamedFonts.podspec */,
+				F02E9DF618D75E3200AACBD4 /* README.md */,
+				F02E9DF718D75E3200AACBD4 /* LICENSE */,
+				F02E9DF818D75E3200AACBD4 /* UIFont+NTNamedFonts.h */,
+				F02E9DF918D75E3200AACBD4 /* UIFont+NTNamedFonts.m */,
 			);
 			name = NTNamedFonts;
-			path = ../Core;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,12 +305,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0E2DE1418C80B8E00587E35 /* InfoPlist.strings in Resources */,
+				F02E9DFA18D75E3200AACBD4 /* NTNamedFonts.podspec in Resources */,
 				F02E9DE018D4F9BE00AACBD4 /* KaushanScript-Regular.otf in Resources */,
-				F02E9DF118D757C700AACBD4 /* LICENSE in Resources */,
 				F03F92F618D223B100B547FB /* MainViewController.xib in Resources */,
+				F02E9DFC18D75E3200AACBD4 /* LICENSE in Resources */,
 				F02E9DDF18D4F9BE00AACBD4 /* Roboto-Bold.ttf in Resources */,
 				F02E9DDE18D4F9BE00AACBD4 /* Roboto-Italic.ttf in Resources */,
-				F02E9DF218D757C700AACBD4 /* README.md in Resources */,
+				F02E9DFB18D75E3200AACBD4 /* README.md in Resources */,
 				F02E9DDD18D4F9BE00AACBD4 /* Roboto-Regular.ttf in Resources */,
 				F0E2DE1C18C80B8E00587E35 /* Images.xcassets in Resources */,
 			);
@@ -329,9 +333,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F02E9DD818D4F66800AACBD4 /* UIFont+CustomFonts.m in Sources */,
-				F0E2DE3B18C80D0400587E35 /* UIFont+NTNamedFonts.m in Sources */,
 				F0E2DE1A18C80B8E00587E35 /* AppDelegate.m in Sources */,
 				F03F92F518D223B100B547FB /* MainViewController.m in Sources */,
+				F02E9DFD18D75E3200AACBD4 /* UIFont+NTNamedFonts.m in Sources */,
 				F03F92FA18D2240B00B547FB /* FontInfo.m in Sources */,
 				F0E2DE1618C80B8E00587E35 /* main.m in Sources */,
 			);
