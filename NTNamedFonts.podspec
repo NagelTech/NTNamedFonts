@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "NTNamedFonts"
   s.version      = "1.00"
-  s.summary      = "NTNamedFonts - Extends UIFont with named font constructors so you don't end up hard-coding the font names in your app. Also provides the same functionality for your custom fonts."
+  s.summary      = "Extends UIFont with named font constructors so you don't end up hard-coding the font names in your app"
   s.homepage     = "https://github.com/NagelTech/NTNamedFonts"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Ethan Nagel" => "eanagel@gmail.com" }
