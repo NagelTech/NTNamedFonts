@@ -12,6 +12,8 @@
 		F02E9DDE18D4F9BE00AACBD4 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F02E9DDA18D4F9BE00AACBD4 /* Roboto-Italic.ttf */; };
 		F02E9DDF18D4F9BE00AACBD4 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F02E9DDB18D4F9BE00AACBD4 /* Roboto-Bold.ttf */; };
 		F02E9DE018D4F9BE00AACBD4 /* KaushanScript-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F02E9DDC18D4F9BE00AACBD4 /* KaushanScript-Regular.otf */; };
+		F02E9DF118D757C700AACBD4 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F02E9DEF18D757C700AACBD4 /* LICENSE */; };
+		F02E9DF218D757C700AACBD4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F02E9DF018D757C700AACBD4 /* README.md */; };
 		F03F92F518D223B100B547FB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F03F92F318D223B100B547FB /* MainViewController.m */; };
 		F03F92F618D223B100B547FB /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F03F92F418D223B100B547FB /* MainViewController.xib */; };
 		F03F92FA18D2240B00B547FB /* FontInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F03F92F918D2240B00B547FB /* FontInfo.m */; };
@@ -47,6 +49,8 @@
 		F02E9DDA18D4F9BE00AACBD4 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
 		F02E9DDB18D4F9BE00AACBD4 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		F02E9DDC18D4F9BE00AACBD4 /* KaushanScript-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KaushanScript-Regular.otf"; sourceTree = "<group>"; };
+		F02E9DEF18D757C700AACBD4 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F02E9DF018D757C700AACBD4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F03F92F218D223B100B547FB /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		F03F92F318D223B100B547FB /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		F03F92F418D223B100B547FB /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
@@ -213,8 +217,10 @@
 		F0E2DE3818C80CC300587E35 /* NTNamedFonts */ = {
 			isa = PBXGroup;
 			children = (
+				F02E9DEF18D757C700AACBD4 /* LICENSE */,
 				F0E2DE3918C80D0400587E35 /* UIFont+NTNamedFonts.h */,
 				F0E2DE3A18C80D0400587E35 /* UIFont+NTNamedFonts.m */,
+				F02E9DF018D757C700AACBD4 /* README.md */,
 			);
 			name = NTNamedFonts;
 			path = ../Core;
@@ -297,9 +303,11 @@
 			files = (
 				F0E2DE1418C80B8E00587E35 /* InfoPlist.strings in Resources */,
 				F02E9DE018D4F9BE00AACBD4 /* KaushanScript-Regular.otf in Resources */,
+				F02E9DF118D757C700AACBD4 /* LICENSE in Resources */,
 				F03F92F618D223B100B547FB /* MainViewController.xib in Resources */,
 				F02E9DDF18D4F9BE00AACBD4 /* Roboto-Bold.ttf in Resources */,
 				F02E9DDE18D4F9BE00AACBD4 /* Roboto-Italic.ttf in Resources */,
+				F02E9DF218D757C700AACBD4 /* README.md in Resources */,
 				F02E9DDD18D4F9BE00AACBD4 /* Roboto-Regular.ttf in Resources */,
 				F0E2DE1C18C80B8E00587E35 /* Images.xcassets in Resources */,
 			);
