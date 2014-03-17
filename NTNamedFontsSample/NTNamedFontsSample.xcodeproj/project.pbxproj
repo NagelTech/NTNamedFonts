@@ -15,7 +15,6 @@
 		F03F92F518D223B100B547FB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F03F92F318D223B100B547FB /* MainViewController.m */; };
 		F03F92F618D223B100B547FB /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F03F92F418D223B100B547FB /* MainViewController.xib */; };
 		F03F92FA18D2240B00B547FB /* FontInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F03F92F918D2240B00B547FB /* FontInfo.m */; };
-		F07CA73618CF6DE6008975D3 /* NTNamedFontsBootstrap.m in Sources */ = {isa = PBXBuildFile; fileRef = F07CA73518CF6DE6008975D3 /* NTNamedFontsBootstrap.m */; };
 		F0E2DE0A18C80B8E00587E35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E2DE0918C80B8E00587E35 /* Foundation.framework */; };
 		F0E2DE0C18C80B8E00587E35 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E2DE0B18C80B8E00587E35 /* CoreGraphics.framework */; };
 		F0E2DE0E18C80B8E00587E35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E2DE0D18C80B8E00587E35 /* UIKit.framework */; };
@@ -53,8 +52,6 @@
 		F03F92F418D223B100B547FB /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		F03F92F818D2240B00B547FB /* FontInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontInfo.h; sourceTree = "<group>"; };
 		F03F92F918D2240B00B547FB /* FontInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontInfo.m; sourceTree = "<group>"; };
-		F07CA73418CF6DE6008975D3 /* NTNamedFontsBootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTNamedFontsBootstrap.h; sourceTree = "<group>"; };
-		F07CA73518CF6DE6008975D3 /* NTNamedFontsBootstrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTNamedFontsBootstrap.m; sourceTree = "<group>"; };
 		F0E2DE0618C80B8E00587E35 /* NTNamedFontsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTNamedFontsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0E2DE0918C80B8E00587E35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F0E2DE0B18C80B8E00587E35 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -218,8 +215,6 @@
 			children = (
 				F0E2DE3918C80D0400587E35 /* UIFont+NTNamedFonts.h */,
 				F0E2DE3A18C80D0400587E35 /* UIFont+NTNamedFonts.m */,
-				F07CA73418CF6DE6008975D3 /* NTNamedFontsBootstrap.h */,
-				F07CA73518CF6DE6008975D3 /* NTNamedFontsBootstrap.m */,
 			);
 			name = NTNamedFonts;
 			path = ../Core;
@@ -327,7 +322,6 @@
 			files = (
 				F02E9DD818D4F66800AACBD4 /* UIFont+CustomFonts.m in Sources */,
 				F0E2DE3B18C80D0400587E35 /* UIFont+NTNamedFonts.m in Sources */,
-				F07CA73618CF6DE6008975D3 /* NTNamedFontsBootstrap.m in Sources */,
 				F0E2DE1A18C80B8E00587E35 /* AppDelegate.m in Sources */,
 				F03F92F518D223B100B547FB /* MainViewController.m in Sources */,
 				F03F92FA18D2240B00B547FB /* FontInfo.m in Sources */,

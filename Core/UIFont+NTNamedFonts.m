@@ -76,7 +76,7 @@ static id createNamedFontIMP(Class class, SEL _cmd, CGFloat size)
 }
 
 
-#pragma mark - Code Generator to aid in creating UIFont+CustomFonts.h
+#pragma mark - Code Generator to aid in creating UIFont+CustomFonts.h/m
 
 
 #ifdef DEBUG

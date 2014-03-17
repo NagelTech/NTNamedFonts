@@ -11,6 +11,13 @@
 
 +(BOOL)detectCustomFontsShowingAlert:(BOOL)showAlert;
 
+#ifdef DEBUG
+
++(NSDictionary *)builtinFontVersions;
+
+#endif
+
+
 @end
 
 

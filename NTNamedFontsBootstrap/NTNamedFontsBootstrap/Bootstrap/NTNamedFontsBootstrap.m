@@ -13,12 +13,6 @@
 #import "UIFont+NTNamedFonts.h"
 
 
-@interface UIFont (NTNamedFontsBootstrap)
-
-+(NSDictionary *)builtinFontVersions;
-
-@end
-
 
 @implementation NTNamedFontsBootstrap
 
@@ -26,7 +20,7 @@
 +(void)updateBuiltinFontVersionsWithVersion:(NSString *)iosVersion
 {
     // Assumes all fonts are builtin when this is run!
-
+    
     NSMutableDictionary *builtinFontVersions = [[UIFont builtinFontVersions] mutableCopy];
     
     int additions = 0;
@@ -51,28 +45,35 @@
         }
     }
     
-    if ( additions == 0 && updates == 0 )
+    NSString *message;
+    
+    if ( updates == 0 && additions == 0 )
     {
-        NSLog(@"no new fonts found.");
-        
-        return ;
+        message = @"no changes found. Ah well.";
     }
     
-    NSMutableString *s = [NSMutableString string];
+    else
+    {
+        NSMutableString *s = [NSMutableString string];
+        
+        [s appendFormat:@"NSDictionary *builtinFontNames = @{\n"];
+        
+        for(NSString *fontName in [builtinFontVersions.allKeys sortedArrayUsingSelector:@selector(compare:)])
+        {
+            [s appendFormat:@"    @\"%@\": @\"%@\",\n", fontName, builtinFontVersions[fontName]];
+        }
+        
+        [s appendFormat:@"    };\n"];
+        
+        NSLog(@"* * * * * * * * * * * * * * * * * * *");
+        NSLog(@"%@", s);
+        NSLog(@"* * * * * * * * * * * * * * * * * * *");
+       message = [NSString stringWithFormat:@"builtinFontNames generated, %d additions, %d updates. Check your log!", additions, updates];
+    }
     
-    [s appendFormat:@"NSDictionary *builtinFontNames = @{\n"];
-    
-     for(NSString *fontName in [builtinFontVersions.allKeys sortedArrayUsingSelector:@selector(compare:)])
-     {
-         [s appendFormat:@"    @\"%@\": @\"%@\",\n", fontName, builtinFontVersions[fontName]];
-     }
-    
-    [s appendFormat:@"    };\n"];
-    
-    NSLog(@"%d additions, %d updates", additions, updates);
-    NSLog(@"* * * * * * * * * * * * * * * * * * *");
-    NSLog(@"%@", s);
-    NSLog(@"* * * * * * * * * * * * * * * * * * *");
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Bootstrap" message:message delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+
+    [alertView show];
 }
 
 
@@ -102,7 +103,16 @@
         }
     }
     
-    NSLog(@"\n%@", h);
+    NSLog(@"* * * * * * * * * * * * * * * * * * *");
+    NSLog(@"%@", h);
+    NSLog(@"* * * * * * * * * * * * * * * * * * *");
+    
+    NSString *message = [NSString stringWithFormat:@"builtin header generated, check your log!"];
+    
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Bootstrap" message:message delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+    
+    [alertView show];
+
 }
 
 
